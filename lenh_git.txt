@@ -16,9 +16,10 @@ git commit --amend -m""
 git push remotename branch
 
 git remote -v
+git remote show name
 git remote rename name name
 git remote -d name
-git remote add remote url
+git remote add remote "url"
 
 git branch
 git branch name
